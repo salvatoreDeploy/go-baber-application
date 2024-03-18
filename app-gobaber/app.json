@@ -1,0 +1,45 @@
+{
+  "expo": {
+    "name": "app-gobaber",
+    "slug": "app-gobaber",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "userInterfaceStyle": "light",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true,
+      "infoPlist": {
+        "NSPhotoLibraryUsageDescription": "Permita que $(PRODUCT_NAME) acesse suas fotos",
+        "NSCameraUsageDescription": "Permita que $(PRODUCT_NAME) acesse sua camera",
+        "microphonePermission": "Permita que $(PRODUCT_NAME) acesse seu microfone"
+      }
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "favicon": "./assets/favicon.png"
+    },
+    "plugins": [
+      [
+        "expo-image-picker",
+        {
+          "photosPermission": "Permite que o APP acesse suas fotos",
+          "cameraPermission": "ermite que o APP acesse sua camera",
+          "microphonePermission": "ermite que o APP acesse seu microphone"
+        }
+      ]
+    ]
+  }
+}

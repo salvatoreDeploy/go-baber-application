@@ -1,0 +1,9 @@
+node_modules
+.env
+.idea
+
+tmp/*
+!tmp/.gitkeep
+
+https://go-baber.74211ac1be9a4651bac8ad7351c1f2ba.r2.cloudflarestorage.com/cc51bea2334c7fd52731c9e04f3c5538-Appearance.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=f631cd8a28aedb93abb5f2084a2eae9a%2F20240211%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240211T112133Z&X-Amz-Expires=900&X-Amz-Signature=7affa148f34e9cddc54360f91cddbd517c3f7bbbe663a2da8e8783bfe446e344&X-Amz-SignedHeaders=host&x-id=GetObject
+https://go-baber.74211ac1be9a4651bac8ad7351c1f2ba.r2.cloudflarestorage.com/cc51bea2334c7fd52731c9e04f3c5538-Appearance.png?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Content-Sha256=UNSIGNED-PAYLOAD&X-Amz-Credential=f631cd8a28aedb93abb5f2084a2eae9a%2F20240211%2Fauto%2Fs3%2Faws4_request&X-Amz-Date=20240211T112457Z&X-Amz-Expires=900&X-Amz-Signature=aef4df244550acebc79da4978c2befaa1027f7b19604b0f5dfb4f6cb5eaa3feb&X-Amz-SignedHeaders=host&x-id=GetObject
